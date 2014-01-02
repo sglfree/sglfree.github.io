@@ -1,0 +1,131 @@
+body  {
+	background-color: #E8E9EB;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #1E4460;
+	list-style-position: inside;
+	list-style-type: circle;
+	line-height:1.5em;
+}
+
+#wrapper {
+	background-color: #FFFFFF;
+	border: 1px solid #CBCDD1;
+	align:center;
+	width:960px;
+	margin:0 auto;
+	position:relative;
+} 
+
+#wrapper2 {
+	align:center;
+	margin-top:10px;
+	margin-left:90px;
+	margin-right:90px;
+	margin-bottom:50px;
+} 
+
+#nav,
+#nav a,
+#nav a:link,
+#nav a:visited,
+#nav a:active
+{
+	color: #454850;
+	width:100%;
+}
+
+
+#navseparator {
+	color: #d1d3da;
+}
+
+
+
+
+h1 {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #1E4460;
+	margin-top:25px;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #1E4460;
+	margin-top:20px;
+}
+
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #454850;
+	font-weight: bold;
+}
+a:link {
+	text-decoration: underline;
+	color: #4548A0;
+}
+a:visited {
+	text-decoration: none;
+	color: purple;
+}
+a:hover {
+	text-decoration: none;
+	color: #4548A0;
+}
+a:active {
+	text-decoration: none;
+	color: #4548A0;
+}
+
+
+form{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #eAf2Fa;
+	padding: 5px;
+	border:#add7ee 1px solid;
+}
+
+TABLE.dataTable {
+	MARGIN: 0px; 
+	VERTICAL-ALIGN: top; 
+	BORDER: #E0E0E0 1px solid; 
+	PADDING: 5px; 
+	TEXT-ALIGN: left;
+}
+
+TABLE.dataTable THEAD TD {
+	BORDER-RIGHT: #d1d8e5 1px solid; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #f5f7fa 1px solid; 
+	PADDING-LEFT: 5px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 150%; 
+	PADDING-BOTTOM: 2px; 
+	BORDER-LEFT: #f5f7fa 1px solid; 
+	COLOR: #333377; 
+	PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #d1d8e5 1px solid; 
+	BACKGROUND-COLOR: #e0e8f1;
+}
+
+TABLE.dataTable TD a {
+	FONT-WEIGHT: bold; 
+}
+
+TABLE.dataTable TD {
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px;
+	line-height:1.4em;
+	PADDING-BOTTOM: 3px; 
+	PADDING-TOP: 3px; 
+	BORDER-BOTTOM: #f5f5f5 1px solid;
+}
+
+ul {
+  padding-left: 20px;
+  line-height:1.8em;
+} 
