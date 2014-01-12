@@ -25,6 +25,10 @@ body  {
 	margin-bottom:50px;
 } 
 
+#page_title {
+  display:none;
+}  
+
 #nav,
 #nav a,
 #nav a:link,
@@ -127,5 +131,5 @@ TABLE.dataTable TD {
 
 ul {
   padding-left: 20px;
-  line-height:1.8em;
+  line-height: 2em;
 } 
