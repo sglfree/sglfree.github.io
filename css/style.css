@@ -22,7 +22,7 @@ body  {
 	margin-top:10px;
 	margin-left:90px;
 	margin-right:90px;
-	margin-bottom:50px;
+	margin-bottom:30px;
 } 
 
 #page_title {
@@ -133,3 +133,7 @@ ul {
   padding-left: 20px;
   line-height: 2em;
 } 
+
+#mysharebutton {
+  padding-left: 60px;
+}  
