@@ -68,15 +68,23 @@ a {
 	font-weight: bold;
 }
 a:link {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #4548A0;
+}
+a[target="_blank"]:after {
+    content: "";
+    background: url("images/ext-icon.png") no-repeat scroll transparent;
+    display: inline-block;
+    height: 10px;
+    margin: 0px 3px 0px 5px;
+    width: 10px;
 }
 a:visited {
 	text-decoration: none;
 	color: purple;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #4548A0;
 }
 a:active {
